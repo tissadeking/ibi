@@ -25,7 +25,7 @@ The network topology and other important details are contained in the config.yml
     sudo docker build -t ibi .
     sudo docker run --network host ibi
     ```
-# Accessing the service
+## Accessing the service
 - The API is available at http://172.21.0.1, on port 7777.
 - The ElasticSearch Instance is exposted at port 9200, also at http://172.21.0.1.
 - The IP at which the software and ElasticSearch run can be changed in the config.yml file.
