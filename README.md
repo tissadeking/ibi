@@ -1,4 +1,4 @@
-# Intent-Based Interface
+# Intent-Based Networking Interface
 
 The IBI is a software prototype developed within the scope of a project. The main goal of the module is to match intents that 
 represent the desired state of the system or network and apply policies to 
