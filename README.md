@@ -32,3 +32,6 @@ The network topology and other important details are contained in the config.yml
 - The ElasticSearch Instance is exposted at port 9200, also at http://172.21.0.1.
 - The IP at which the software and ElasticSearch run can be changed in the config.yml file.
 - The entire API endpoints to access stored intents, etc are contained in the config.yml file.
+
+## Software Architecture
+![Description of Image](ibi_archi.png)
