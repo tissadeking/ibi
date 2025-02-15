@@ -4,7 +4,7 @@ The IBI is a software prototype developed within the scope of a project. The mai
 represent the desired state of the system or network and apply policies to 
 achieve those states or, in other words, to fulfill the intents. Currently, the 
 IBI can receive intents encoded as JSON files through a RESTful API or put in natural language through a 
-graphical user interface (GUI). It receives security intents that could be 
+graphical user interface (GUI) and translates these natural language intents into JSON formats using Large Language Model (LLM). It receives security intents that could be 
 mitigation or prevention intents regarding threats affecting the network. Within 
 the IBI, the intents are processed and matched with the policies that are sent 
 to another module within the project. This other module needs to be up and running for the IBI to function.
