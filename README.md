@@ -4,11 +4,13 @@ The IBI is a software prototype developed within the scope of a project. The mai
 represent the desired state of the system or network and apply policies to 
 achieve those states or, in other words, to fulfill the intents. Currently, the 
 IBI can receive intents encoded as JSON files through a RESTful API or put in natural language through a 
-graphical user interface (GUI). The receives security intents that could be 
+graphical user interface (GUI). It receives security intents that could be 
 mitigation or prevention intents regarding threats affecting the network. Within 
 the IBI, the intents are processed and matched with the policies that are sent 
 to another module within the project. This other module needs to be up and running for the IBI to function.
+The IBI also has an ML Recommender based on Reinforcement Learning that recommends policies based on their previous performances.
 The network topology and other important details are contained in the config.yml file.
+
 
 ## Installation
 
