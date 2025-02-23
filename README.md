@@ -1,6 +1,6 @@
 # Intent-Based Networking Interface
 
-The IBI is a software prototype developed within the scope of a project. The main goal of the module is to match intents that 
+The IBI is a software developed within the scope of a project on Intent-based Network Security. The main goal of the module is to match intents that 
 represent the desired state of the system or network and apply policies to 
 achieve those states or, in other words, to fulfill the intents. Currently, the 
 IBI can receive intents encoded as JSON files through a RESTful API or put in natural language through a 
