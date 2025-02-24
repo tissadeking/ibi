@@ -43,7 +43,7 @@
   'san_api_url': 'http://172.21.0.1:7777/whatif_sends',
    
   #groq api key
-  'groq_api_key': 'PUT YOUR OWN GROQ API KEY OR REQUEST ONE FROM TUBS HORSE TEAM',
+  'groq_api_key': 'PUT YOUR OWN GROQ API KEY OR REQUEST ONE FROM TUBS PROJECT TEAM',
 
   #to clear existing intent store if you want, otherwise, set it as 'false'
   'clear_intent_store': 'true',
