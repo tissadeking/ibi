@@ -16,8 +16,9 @@ stored_qos_intents_url = config.stored_qos_intents_url
 #intent translation using LLM
 def extract_command_fun(command):
     #dotenv.load_dotenv(dotenv.find_dotenv())
-    # groq_api_key = os.environ["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"]
-    groq_api_key = "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"
+    #groq_api_key = "PUT YOUR OWN GROQ API KEY"
+    groq_api_key = config.groq_api_key
+    print("use your groq api key or request one from TUBS HORSE team")
     llama3 = Groq(model="llama3-8b-8192", api_key=groq_api_key, temperature=0.0)
 
     examples = """Respond only with valid JSON. Do not write an introduction or summary.
