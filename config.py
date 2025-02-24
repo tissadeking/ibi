@@ -25,6 +25,8 @@ rtr_password = parameters['rtr_password']
 rtr_email = parameters['rtr_email']
 to_connect_to_rtr = parameters['to_connect_to_rtr']
 
+groq_api_key = parameters['groq_api_key']
+
 templates_directory = files_directory + parameters['templates_directory']
 static_directory = files_directory + parameters['static_directory']
 policy_store_directory = files_directory + parameters['policy_store_file']
